@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Events.Fragment1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Round 1 :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Participants will form a team and each team will compete against each other in this round."/>
+           <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Round 2 :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="The winners of round 1 will compete against each other. Winners of this round will proceed to the finale."
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Round 3 :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Winners of round 2 will have an exciting face-off in the finals."
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</FrameLayout>

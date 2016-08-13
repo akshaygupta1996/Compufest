@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Events.Fragment1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="Hey gamers! Are you ready for showing your gaming skills? Yes..then show your talent of gaming by taking part in PS3.In this event there are 2 games Smackdown and FIFA.In each games, there will be matches with your rivals, You have to defeat them with succesing towards the next round.And at the end there will be only one winner by defeating all the rivals."
+            android:textSize="17dp"/>
+
+    </LinearLayout>
+</FrameLayout>

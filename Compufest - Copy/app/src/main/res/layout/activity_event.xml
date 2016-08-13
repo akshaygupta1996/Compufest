@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:layout_marginTop="@dimen/custom_tab_layout_height"
+tools:context="connect.gcm.akshay.compufest.Events.EventActivity">
+
+
+<ImageButton
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:layout_margin="2dp"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnEventWorkshops"
+    android:src="@drawable/workshop"
+    android:layout_gravity="center_horizontal"
+    android:scaleType="fitXY" />
+
+<ImageButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_margin="2dp"
+    android:id="@+id/btnEventTechnical"
+    android:background="@android:color/white"
+    android:src="@drawable/tech"
+    android:scaleType="fitXY"
+    android:layout_gravity="center_horizontal" />
+
+<ImageButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:scaleType="fitXY"
+    android:layout_margin="2dp"
+    android:src="@drawable/cultural"
+    android:background="@android:color/white"
+    android:id="@+id/btnEventCultural"
+    android:layout_gravity="center_horizontal" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Events.Fragment1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Round 1 :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text=" A workshop will be organized based on android app development. Eclipse and android studio will be used for getting the basics about android system." />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Round 2 :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:layout_marginBottom="20dp"
+            android:text="This round consists of competition for designing applications on eclipse and android studio and creating an activity on android studio."/>
+
+    </LinearLayout>
+</FrameLayout>

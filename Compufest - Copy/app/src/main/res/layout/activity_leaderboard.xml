@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.github.florent37.parallax.ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.github.florent37.parallax.ParallaxView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:parallaxVertical="0.3">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgonly" />
+
+        </com.github.florent37.parallax.ParallaxView>
+
+        <com.github.florent37.parallax.ParallaxView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            app:parallaxVertical="0.5">
+
+            <TextView
+                style="@style/MyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/leaderboard" />
+
+        </com.github.florent37.parallax.ParallaxView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="130dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+</com.github.florent37.parallax.ScrollView>
+
+
+
+

@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Events.Fragment1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:text="One socializing non technical event for all the facebook fanatics out there. Just upload your best photo on the social networking site Facebook, and the participant with the most number of likes will be the winner! The likes will be considered from 10 am (day 1) to 3 pm (day2) only. Log in!"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+</FrameLayout>

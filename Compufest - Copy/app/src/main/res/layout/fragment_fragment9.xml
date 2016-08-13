@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Events.Fragment1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Round 1 :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="This is purely a hardware oriented technical aptitude round. Contestants clearing this round will be applicable for the next round."/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Round 2 :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Participants will have to disassemble a CPU."
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Round 3 :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="In this round participants will have to assemble each internal part of the disassembled CPU and make it in working mode."
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</FrameLayout>

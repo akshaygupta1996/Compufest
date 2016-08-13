@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Events.Fragment1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="Learn the essentials of ‘Adobe after effects’ and take your motion, tracking and animation skills to a higher level. Videopedia brings you the workshop, followed by a competition that’d  prove as an opportunity to apply your novice skills ."
+            android:textSize="17dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+           android:text="System requirements: Laptop having Intel i3 or above processor with minimum 4 GB RAM, 64 bit Windows OS versions 7,8,8.1,or 10, 5GB hard drive and 15 GB for disc cache space is mandatory, Resolution 720p."
+            android:textSize="17dp"/>
+
+
+    </LinearLayout>
+</FrameLayout>

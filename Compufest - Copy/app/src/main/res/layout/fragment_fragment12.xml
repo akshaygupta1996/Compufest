@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Events.Fragment1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Round 1 :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:text="This is the quiz round. Participants have to google out the answers in a given limit of time. There will be total of 60 questions. Participants clearing the round will enter into the next round."
+            android:layout_height="wrap_content"
+            android:textSize="17dp"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Round 2 :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Participants have to guess the shortcut keys for various tasks."
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Round 3 :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="This round gets a bit complex as the mouse will be removed. Participants have to do the tasks using the keyboard only."
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</FrameLayout>
